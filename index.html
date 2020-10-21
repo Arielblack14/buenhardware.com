@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0107)file:///F:/UNIVERSIDAD/TI/SEMESTRE%205%20Y%206/DESARROLLO%20WEB/P1/WebPages/paginawebprofesional/index.html -->
+<html lang="es">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- rel para acceder a un directorio es como una relacion para enlazar esto con un destino o directorio-->
+		<!--Usaremos link para establecer la relación entre este documento y los recursos externos-->
+		<link rel="shorcut icon" href="img/logo.png"> <!-- shorcut incon ->agregar icono a la pag web-->
+		<link rel="stylesheet" type="text/css" href="CSS/estilos.css"><!--aquí pondremos la ruta de los estilos css-->
+		<title>BuenHardware.com</title> <!-- titulo de la pagina web que se muestra en la pestaña del navegador-->
+	</head>
+
+	<body>
+		<!--Aquí van todos los indices-->
+		<nav> <!-- Nav representa una especie de incide para la navegacion en la pag web-->
+		<a href="#inicio">Inicio</a> 
+		<!-- ancor para enlazar con arvhivos, ubicaciones dentro del mismo codigo o enlazar con otra pagina web-->
+		<a href="#Acerca de">Acerca de</a> 
+		<a href="#Contactos">Contactos</a> 
+		<a href="#Redes%20Sociales">Redes Sociales</a>
+		</nav>
+		<!--Fin de indices-->
+		<header>
+		<section class="cabeceras"><!--Section clas define una seccion y una clase en este caso cabeceras para una mejor organización del codigo html-->
+				<h1 id="inicio">BUENHARDWARE.COM</h1><!-- id para el indice y se le da nombre-->
+				<img src="img/portada.jpg" alt="portada"><!--alt para teto altenativo como una descripción-->
+				<h2 id="subinicio">Calidad-Precio en hardware para creadores de contenido y gamers</h2>
+				
+		</section>
+		<!--Este codigo sirve para insertar una especie de ola en la pag web y le damos un nombre de clase--> 
+			<div class="ola" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C137.97,-0.48 263.26,189.95 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>
+		<!--Fin de la OLA-->
+
+		</header>
+		<main>
+			<!--SECCIÓN ACERCA DE NOSOTROS-->
+			<section class="contenedores"><!--Dividimos una seccion y le damos nombre a la clase-->
+				<h2 id="Acerca de" class="titulo ">Sobre Nosotros</h2><!--Seccion sobre nosotros-->
+				<!--SECCIÓN SOBRE NOSOTROS-->
+				<div class="contenedores"><!--Div para dividir la clase titulo-->
+					<!--Aquí va la imagen de la seccion sobre nosotros-->
+					<img src="./index_files/sobre nosotros.jpg" class="imagen-acercadenosotros">
+					 <div class="subcontenido"><!--Aqui va la mision y visión-->
+					 <h3> 
+					 	<span>1 </span>VISIÓN<!--span para dar estilo a un texto o imagen-->
+					 </h3><p>Mediante la confianza que brindamos a nuestros clientes poder ser los numero 1 y los más solicitados a nivel mundial si en cuanto a hardware se refiere seremos la referencia absoluta para realizar presupuestos en todos los países del mundo</p>
+					 <h3> 
+					 	<span>2 </span>MISIÓN<!--span para dar estilo a un texto o imagen-->
+					 </h3><p>Facilitar la busqueda de los mejores componentes para tu pc o estación de trabajo priorizando el tema calidad precio en los mejores productos del mercado y poder satisfacer tus necesidades y expectativas</p>
+					 </div>
+				</div>
+			</section>
+			<!--FIN DE SECCIÓN ACERCA DE NOSOTROS-->
+			
+			<!--SECCION CONTACTENOS-->
+			<section class="Contactos">
+				<div class="contenido">
+					<h2 id="Contactos" class="titulos">Contactos</h2>
+					<p>Contactenos por la línea telefónica : <a href="tel: +593991192508">+593991192508</a>
+						<img src="img/iconos/llamada.svg">
+					</p>
+					<p>Envíenos un correo electrónico :<a href="mailto:%20alexmontenegrocobena@gmail.com?%20cc=editor@gmail.com%20&amp;%20bcc=news.gmail.com"><img src="./index_files/enviar.png" alt="logo pagina"></a> <!--alt para texto altenativo-->
+					</p>
+					<!--en el envio de correo hemos agregado una imagen como boton enviar correo-->
+				</div>
+			</section>
+			<!--FIN SECCION CONTÁCTENOS-->
+			<section class="RedesSociales">
+					<div class="RedesSociales">
+						<h2 id="Redes Sociales" class="titulos">Redes Sociales</h2>
+						<div class="Iconos_Social"><!--En esta división van a ir todas las imagenes de redes sociales y pondremos un nombre a esta clase-->
+							<img src="img/iconos/185958-social-media-icons/svg/facebook.svg" alt="iconofacebook">
+							<img src="img/iconos/185958-social-media-icons/svg/twitter.svg" alt="iconotwitter">
+							<img src="img/iconos/185958-social-media-icons/svg/instagram.svg" alt="iconotwitter">
+							<img src="img/iconos/185958-social-media-icons/svg/whatsapp.svg"alt="iconowhatsapp">
+						</div>
+					</div>
+			</section>
+			<!--Tablas de contenido-->
+			<!--En esta sección van a ir todo el hardware detallado para el presupuesto-->
+		<section>
+			<h2>Hardware más popular</h2>
+			<table style="width: 20%">
+				<tr>
+					<th>Nombre</th>
+					<th>Precio</th>
+					<th>Gamma</th>
+				</tr>
+
+				<tr>
+					<td>Aorusrx10</td>
+					<td>Asus Rog</td>
+					<td>Alienware</td>
+
+				</tr>
+				<tr>
+					<td>$490</td>
+					<td>$220</td>
+					<td>$130</td>
+				</tr>
+				<tr>
+					<td>Alta</td>
+					<td>Media</td>
+					<td>Econnómica</td>
+				</tr>
+			</table>
+			</section>
+			<section class="Datos personales">
+				<form>
+					<p>
+						<label>Nombre :
+						<input type="text" name="txtnombre" size="50" required maxlength="30" minlength="2">
+						</label>	
+					</p>
+					<p>
+						<label for="correotxt">Email:</label>
+						<input	type="email" name="correotxt" requeired="">
+						<!--Al ussar el tipo email por defecto HTML5 ya  corre un codigo por debajo al momento 
+							describir como tipo email-->
+					</p>
+
+					<p>SELECCIONAR IDIOMA</p>
+				<!--El name identifica el grupo de las opciones y si tienen un mismo nombre solo podra elegirse uno de los 2-->
+					<p>
+						<label for ="Español">Español</label>
+					<input type="radio" name="idioma" id="Español" value="1"></p>
+					
+					<p>
+						<label for ="Inglés">Inglés</label>
+					<input type="radio" name="idioma" id="Inglés" value="2">
+					</p>		
+				
+				</form>
+
+					
+
+
+
+
+			</section>
+
+			<SECTION class="Videos">
+				<p> |
+					<video controls autoplay>
+						<source src="video/77774831_536098660548295_7779342196666147565_n.mp4" type="video/mp4">
+						<track kind="subtitles" src="video/traduccion.vtt" srclang="en" label="Inglish">
+					</video>
+				</p>
+			</SECTION>
+
+
+			
+		</main>
+
+
+
+
+		
+
+	</body>
+
+</html>
